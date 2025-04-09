@@ -20,6 +20,9 @@ Instructions:
 
 """
 
+
+import pandas as pd
+
 def greet_user(name: str) -> str:
     """Function assigned to Thomas.
 
@@ -81,6 +84,24 @@ def factorial(n: int) -> int:
     for i in range(1, n + 1):
         result *= i
     return result
+
+
+def create_pandas_dataframe() -> pd.DataFrame:
+    """Function to create a pandas DataFrame.
+
+    Task: Create a pandas DataFrame with sample data and return it.
+    Ensure that the DataFrame has meaningful column names and data types.
+
+    Returns:
+        pd.DataFrame: A sample DataFrame.
+    """
+
+    data = {
+        "Name": ["Alice", "Bob", "Charlie"],
+        "Age": [25, 30, 35],
+        "City": ["New York", "Los Angeles", "Chicago"],
+    }
+    return pd.DataFrame(data)
 
 
 def main():
