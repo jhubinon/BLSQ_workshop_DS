@@ -4,10 +4,10 @@ This script is intended for educational purposes. It allows students to practice
 cloning, branching, committing, solving conflicts, and more.
 
 Students:
-  - Gaspard (good Python level)
-  - Iulia (good Python level)
-  - Toguiyeni (good Python level)
-  - Thomas (beginner in Python)
+  - Gaspard
+  - Iulia
+  - Toguiyeni
+  - Thomas
 
 Instructions:
   - Each student should modify their assigned function according to the provided guidelines.
@@ -15,6 +15,7 @@ Instructions:
   - Commit your changes and push them to the repository.
   - Try to create conflicts by modifying shared parts of the code (e.g., the main function).
   - Resolve conflicts collaboratively.
+  - If you use packages, make sure to include them in the requirements.txt file!
 
 """
 
