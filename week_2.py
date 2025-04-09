@@ -78,10 +78,10 @@ def factorial(n: int) -> int:
     Returns:
         int: The factorial of the input number.
     """
-    result = 1
-    for i in range(1, n + 1):
-        result *= i
-    return result
+    # result = 1
+    # for i in range(1, n + 1):
+    #     result *= i
+    return n * factorial(n - 1) if n > 1 else 1
 
 
 def main():
