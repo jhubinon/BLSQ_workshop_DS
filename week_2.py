@@ -5,7 +5,7 @@ cloning, branching, committing, solving conflicts, and more.
 
 Students:
   - Gaspard
-  - Iulia
+  - Arnaud
   - Toguiyeni
   - Thomas
 
@@ -19,7 +19,6 @@ Instructions:
   Make sure to use the same version of the packages all together.
 
 """
-
 
 def greet_user(name: str) -> str:
     """Function assigned to Thomas.
@@ -67,7 +66,7 @@ def reverse_string(text: str) -> str:
 
 
 def factorial(n: int) -> int:
-    """Function assigned to Iulia.
+    """Function assigned to Arnaud.
 
     Task: Modify this function to use recursion instead of a loop.
     Additionally, handle edge cases such as negative numbers or non-integer inputs.
