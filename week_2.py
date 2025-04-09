@@ -62,7 +62,6 @@ def reverse_string(text: str) -> str:
     Returns:
         str: The reversed string.
     """
-    # change
     return text[::-1]
 
 
