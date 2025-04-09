@@ -15,7 +15,8 @@ Instructions:
   - Commit your changes and push them to the repository.
   - Try to create conflicts by modifying shared parts of the code (e.g., the main function).
   - Resolve conflicts collaboratively.
-  - If you use packages, make sure to include them in the requirements.txt file!
+  - If you use packages, make sure to include them in the requirements.txt file.
+  Make sure to use the same version of the packages all together.
 
 """
 
