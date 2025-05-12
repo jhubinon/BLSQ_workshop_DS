@@ -1,0 +1,15 @@
+database:
+  host: localhost
+  username: some_username
+  password: some_password
+  dbname: the_db_name
+  port: 5432
+files:
+  path: ./workspace
+
+connections:
+  iulia-bdi:
+    type: dhis2
+    url: https://dhis.dsnis.bi/hmis/api
+    username: Nkurunziza.Egide
+    password: Egide@2025
